@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+@import "base/all";
+
+@import "grid/gridlex";
+
+
+.container{
+
+	max-width: 1280px;
+  	margin: 0 auto;
+  	padding: 0 1em;
+}
+
+.container-full{
+	width: 100%;
+  	margin: 0 auto;
+  	padding: 0
+  
+}
+
+.top-hero{
+	//height: 100vh;
+	
+ 
+}
+
+ 
+
+.hero-block{
+	background: $orange-500;
+	margin:1em;
+	width: 45vw;
+    height: 45vw;
+    max-height: 100vh;
+
+    h1{
+    	color: white;
+    	padding: .3em;
+    	font-size: 1.8em
+    }
+
+}
+
+.hero-text{
+	margin-top: 30vh;
+	padding: 0em 1em;
+	h1{
+		font-size: 6.0rem;
+	}
+}
+
+.orange-dot{
+	color: $orange-500;
+}
+
+.text-section{
+	height: 100vh;
+	margin-top: 30vh;
+	padding: 0em 1em;
+	
+}
+
+.fixed-logo{
+	
+	top: 10vh ;
+	width: 40%;
+	left: 5%;
+	max-width: 600px;
+	position: fixed;
+}
+
+.square {
+	//display: none;
+    float:left;
+    position: relative;
+    width: 25%;
+    padding-bottom: 25%; /* = width for a 1:1 aspect ratio */
+    overflow:hidden;
+    background:transparent;
+}
+
+.contact{
+	text-align: center;
+	height: 50vh;
+	h1{
+		color: white;
+	}
+}
+
+
+.blue-grey-50{
+	background-color: $blue-grey-50;
+}
+
+.orange-500{
+	background-color: $orange-500;
+}
+.orange-400{
+	background-color: $orange-400;
+}
+.orange-300{
+	background-color: $orange-300;
+}
+.orange-200{
+	background-color: $orange-200;
+}
+

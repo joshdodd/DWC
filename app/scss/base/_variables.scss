@@ -1,0 +1,45 @@
+// Variables
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Media Queries 
+// Example Usage: @media($mq-smaller-than-xs) { ... }
+$mq-larger-than-xs    : "min-width: 36em" !default; //576px and up
+$mq-larger-than-sm   : "min-width: 48em" !default;	//768px and up
+$mq-larger-than-md    : "min-width: 64em" !default;	//1024px and up
+$mq-larger-than-lg   : "min-width: 80em" !default;	//1280px and up
+
+$mq-smaller-than-xs    : "max-width: 36em" !default; //576px and down 
+$mq-smaller-than-sm   : "max-width: 48em" !default;	 //768px and down 
+$mq-smaller-than-md    : "max-width: 64em" !default; //1024px and down 
+$mq-smaller-than-lg   : "max-width: 80em" !default;  //1280px and down 
+ 
+
+// Colors
+$orange-50: hsla(37, 100%, 94%, 1);
+$orange-100: hsla(36, 100%, 85%, 1);
+$orange-200: hsla(36, 100%, 75%, 1);
+$orange-300: hsla(36, 100%, 65%, 1);
+$orange-400: hsla(36, 100%, 57%, 1);
+$orange-500: hsla(36, 100%, 50%, 1);
+$orange-600: hsla(33, 100%, 49%, 1);
+$orange-700: hsla(30, 100%, 48%, 1);
+$orange-800: hsla(27, 100%, 47%, 1);
+$orange-900: hsla(21, 100%, 45%, 1);
+
+
+$blue-grey-50: hsla(204, 15%, 94%, 1);
+$blue-grey-100: hsla(198, 16%, 84%, 1);
+$blue-grey-200: hsla(200, 15%, 73%, 1);
+$blue-grey-300: hsla(200, 16%, 62%, 1);
+$blue-grey-400: hsla(200, 15%, 54%, 1);
+$blue-grey-500: hsla(200, 18%, 46%, 1);
+$blue-grey-600: hsla(199, 18%, 40%, 1);
+$blue-grey-700: hsla(199, 18%, 33%, 1);
+$blue-grey-800: hsla(200, 18%, 26%, 1);
+$blue-grey-900: hsla(200, 19%, 18%, 1);
+
+ 
+
+
+// Misc
+//$global-radius: 4px !default;
